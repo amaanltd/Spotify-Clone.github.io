@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left">
+        <!-- home -->
+        <div class="close flex">
+          <img src="cross.svg"  style="filter: invert(1)" alt="">
+        </div>
+        
+        <div class="home flex fd-col">
+          <div class="logo invert"><img width="110px" src="logo.svg" alt="logo" /></div>
+          <ul class="flex fd-col">
+            <li class="home-icon flex c-align">
+              <img
+                src="home.svg"
+                class="invert"
+                width="25px"
+                alt=""
+                srcset=""
+              />
+              Home
+            </li>
+            <li class="search c-align">
+              <img
+                src="search.svg"
+                style="filter: invert(0.6)"
+                width="25px"
+                alt=""
+                srcset=""
+              />
+              Search
+            </li>
+          </ul>
+        </div>
+        
+
+        <!-- library -->
+
+        <div class="library flex fd-col">
+          <div class="y-lib flex c-align">
+            <img
+              src="library.svg"
+              style="filter: invert(0.6)"
+              width="25px"
+              alt=""
+            />
+            <span class="l-text">Your Library</span>
+          </div>
+
+          <div class="body">
+            <div class="song-list">
+                <ul>
+                 
+                </ul>
+            </div>
+          </div>
+        
+          <!-- <div class="main-sec flex fd-col">
+          <section class="flex fd-col">
+            <div class="flex fd-col sec-txt">
+              <span class="spn-1">Create your first playlist</span>
+              <span class="spn-2">It's easy, we'll help you</span>
+            </div>
+            <div class="cp-btn">
+              <button>Create playlist</button>
+            </div>
+          </section>
+
+          <section class="flex fd-col">
+            <div class="flex fd-col sec-txt">
+              <span class="spn-1">Create your first playlist</span>
+              <span class="spn-2">It's easy, we'll help you</span>
+            </div>
+            <div class="cp-btn">
+              <button>Create playlist</button>
+            </div>
+          </section>
+        </div>
+
+        <div class="footer flex">
+          <div class="f-div ">
+              <div>
+                  <span>Legal</span>
+              </div>
+              <div>
+                  <span>Safety &amp; Privacy Center</span>
+              </div>
+              <div>
+                  <span>Privacy Policy</span>
+              </div>
+              <div>
+                  <span>Cookies</span>
+              </div>
+              <div>
+                  <span>About Ads</span>
+              </div>
+              <div>
+                  <span>Accessibility</span>
+              </div>
+          </div>
+          <span>Cookies</span>
+      </div> -->
+
+      
+      
+        </div>
+      </div>
+
+      <!-- right -->
+
+      <div class="right">
+        <div class="nav flex">
+          <div class="hamberger">
+            <img src="hamberger.svg" alt="">
+          </div>
+          <div class="logins flex c-align">
+            <div class="sign-up">
+              Sign up
+            </div>
+            <button class="login">
+              Log in
+            </button>
+          </div>
+        </div>
+
+        <!-- hero-section -->
+
+        <div class="hero flex fd-col">
+          <div class="title flex ">
+            <span class="p-artist">
+            Spotify Playlist
+            </span>
+            <span class="show">
+              Show all
+            </span>
+          </div>
+          <div class="cards flex">
+          
+            <div class="card">
+              <img src="anirudh.jpeg" alt="Playlist Cover">
+              <div class="card-content">
+                  <h2>My Awesome Playlist</h2>
+                  <p>This is a collection of my favorite songs. Enjoy!</p>
+                  <button>Play Playlist</button>
+              </div>
+          </div>
+          <div class="card">
+            <img src="anirudh.jpeg" alt="Playlist Cover">
+            <div class="card-content">
+                <h2>My Awesome Playlist</h2>
+                <p>This is a collection of my favorite songs. Enjoy!</p>
+                <button>Play Playlist</button>
+            </div>
+        </div>
+        <div class="card">
+          <img src="anirudh.jpeg" alt="Playlist Cover">
+          <div class="card-content">
+              <h2>My Awesome Playlist</h2>
+              <p>This is a collection of my favorite songs. Enjoy!</p>
+              <button>Play Playlist</button>
+          </div>
+      </div>
+      <div class="card">
+        <img src="anirudh.jpeg" alt="Playlist Cover">
+        <div class="card-content">
+            <h2>My Awesome Playlist</h2>
+            <p>This is a collection of my favorite songs. Enjoy!</p>
+            <button>Play Playlist</button>
+        </div>
+    </div>
+    <div class="card">
+      <img src="anirudh.jpeg" alt="Playlist Cover">
+      <div class="card-content">
+          <h2>My Awesome Playlist</h2>
+          <p>This is a collection of my favorite songs. Enjoy!</p>
+          <button>Play Playlist</button>
+      </div>
+  </div>
+          
+        </div>
+
+        <!-- playbar -->
+        <div class="playbar flex">
+          <div class="songtitle">
+
+          </div>
+          <div class="playbtns flex">
+          <img id="previous" src="previous.svg" alt="">
+          <img id="play" src="play.svg" alt="">
+          <img id="forward" src="forward.svg" alt="">
+
+        </div>
+          <div class="songtime">
+
+          </div>
+
+      </div>
+      <div class="seekbar">
+        <div class="circle"></div>
+      </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
